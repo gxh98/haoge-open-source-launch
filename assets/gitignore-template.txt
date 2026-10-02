@@ -1,0 +1,53 @@
+# ===== 密钥与凭据（绝不能提交）=====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+.npmrc
+.netrc
+.git-credentials
+
+# ===== 依赖与虚拟环境 =====
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ===== 构建产物 =====
+dist/
+build/
+out/
+*.egg-info/
+.next/
+target/
+
+# ===== 编辑器与系统文件 =====
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# ===== 大文件与本地数据（按项目实际删减）=====
+*.mp4
+*.mov
+*.zip
+data/local/
