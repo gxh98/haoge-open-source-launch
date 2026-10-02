@@ -97,6 +97,12 @@ python scripts/security_scan.py ./my-project
 
 Windows 11 + Python 3.12，git 2.55.0，gh 2.100.0。
 
+## 关于作者
+
+**昊哥**：26 年汽车行业老兵，All in AI 的实践者。这个技能固化了我第一次把自己的项目开源到 GitHub 时的完整流程与安全检查——你再走这条路时，可以少踩一遍坑。
+
+更多工具见[我的 GitHub 主页](https://github.com/gxh98)。
+
 ## 许可证
 
 MIT，见 [LICENSE](LICENSE)。
