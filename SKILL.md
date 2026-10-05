@@ -1,9 +1,9 @@
 ---
 name: haoge-open-source-launch
-description: 昊哥自建的「GitHub 开源发布」技能。把本地项目或技能从"能跑"送到"GitHub 公开可下载"，按 6 阶段 10 步执行：生成可开源骨架、写与真实功能一致的 README、加 LICENSE、公开前安全检查（密钥/Token/隐私/本地绝对路径/垃圾文件）、检查并安装 git 与 GitHub CLI、初始化仓库与首次提交、gh 浏览器登录、创建公开仓库并推送、打 v0.1.0 Tag 与 GitHub Release。发布全程执行中文名优先纪律：产品名=中文名（昊哥-XXX），英文仓库名仅是门牌号。触发场景：用户说"帮我把这个项目开源""发布到 GitHub""建个开源仓库""上传 GitHub""开源前先检查一下""打 Release""打 tag""gh 没装""gh 没登录""帮忙写 README/LICENSE"，或需要做公开前体检、把 skills/ 下的技能包开源发布时。
+description: 昊哥自建的「开源Skill技能不踩坑」技能。把本地项目或技能从"能跑"送到"GitHub 公开可下载"，按 6 阶段 10 步执行：生成可开源骨架、写与真实功能一致的 README、加 LICENSE、公开前安全检查（密钥/Token/隐私/本地绝对路径/垃圾文件）、检查并安装 git 与 GitHub CLI、初始化仓库与首次提交、gh 浏览器登录、创建公开仓库并推送、打 v0.1.0 Tag 与 GitHub Release。发布全程执行中文名优先纪律：产品名=中文名（昊哥-XXX），英文仓库名仅是门牌号。触发场景：用户说"帮我把这个项目开源""发布到 GitHub""建个开源仓库""上传 GitHub""开源前先检查一下""打 Release""打 tag""gh 没装""gh 没登录""帮忙写 README/LICENSE"，或需要做公开前体检、把 skills/ 下的技能包开源发布时。
 ---
 
-# 昊哥 · GitHub 开源发布流水线
+# 昊哥-开源Skill技能不踩坑
 
 把「本地能跑」变成「GitHub 公开可下载」。六个阶段、十个步骤，每步都有卡点和验收标准。
 
