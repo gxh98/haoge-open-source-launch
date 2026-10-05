@@ -1,6 +1,8 @@
-# haoge-open-source-launch
+# 昊哥-开源Skill技能不踩坑
 
-**昊哥 · GitHub 开源发布流水线** —— 一个给 AI Agent 用的技能（DSH / Claude Skill），把本地项目从"能跑"送到"GitHub 公开可下载"。
+一个给 AI Agent 用的技能（DSH / Claude Skill），把本地项目从"能跑"送到"GitHub 公开可下载"。
+
+> 本技能中文名：**昊哥-开源Skill技能不踩坑**。GitHub 仓库名 `haoge-open-source-launch` 仅为平台技术标识（GitHub 不支持中文仓库名），转载、收录、引用请以中文名为准。
 
 ## 为什么造它
 
@@ -22,7 +24,7 @@
 ## 主要功能
 
 - **6 阶段 10 步流程**（`SKILL.md`）：骨架 → 门面 → 体检 → 本地仓库 → GitHub 身份 → 发布
-- **三条铁律**：不碰用户凭据 / 先报告再动手 / 不编造 README
+- **四条铁律**：不碰用户凭据 / 先报告再动手 / 不编造 README / 中文名是产品名，英文只是门牌号
 - **公开前安全体检**（`scripts/security_scan.py`）：扫密钥、私钥、身份证号、本地绝对路径、临时垃圾文件，分级 BLOCKER / WARN / INFO，**输出脱敏**
 - **工具链检测**（`scripts/toolchain_check.py`）：检测 git / gh 是否安装、gh 是否已登录，并给出下一步命令（**只检测，不安装**）
 - **原始提示词**（`references/prompts.md`）：10 步提示词全文，可直接复制给 AI
@@ -95,7 +97,7 @@ python scripts/security_scan.py ./my-project
 ## 常见问题（FAQ）
 
 **Q：它会自动改我的代码或重写 Git 历史吗？**
-不会。三条铁律：不碰用户凭据 / 先报告再动手 / 不编造 README；不自动 `--force` 推送、不重写历史。
+不会。四条铁律：不碰用户凭据 / 先报告再动手 / 不编造 README / 中文名是产品名，英文只是门牌号；不自动 `--force` 推送、不重写历史。
 
 **Q：第一次用需要装什么？**
 git 和 GitHub CLI（gh）。脚本只检测环境并给出下一步命令，安装（涉及管理员权限）由你确认后自己执行。
